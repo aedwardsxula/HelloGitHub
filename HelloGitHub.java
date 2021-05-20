@@ -5,5 +5,8 @@ public class HelloGitHub {
 
 		Song s = new Song();
 		System.out.println("s song: " + s);
+
+		PlayList music = new PlayList(10);
+		System.out.println("music playlist: " + music + " " + Integer.toHexString(music.hashCode()));
 	}
 }

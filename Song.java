@@ -1,16 +1,16 @@
 
 
 public class Song {
-	private String name;
+	private String title;
 	private double length;
 
 	public Song() {
-		name = "Jamitha";
+		title = "Jamitha";
 		length = 7.5;
 	}
 
 	@Override
 	public String toString() {
-		return name + " " + length;
+		return title + " " + length;
 	}
 }

@@ -4,9 +4,9 @@ public class HelloGitHub {
 		System.out.println("Andrea");
 
 		Song s = new Song();
-		System.out.println("s song: " + s);
+		System.out.println("\ns song: " + s);
 
-		PlayList music = new PlayList(10);
-		System.out.println("music playlist: " + music + " " + Integer.toHexString(music.hashCode()));
+		PlayList music = PlayList.randomSongs(10);
+		System.out.println("\nmusic playlist: " + music);
 	}
 }

@@ -1,17 +1,17 @@
 import java.util.Random;
 
 public class Song {
-	private String title;
+	private String artist;
 	private double minutes;
 
 	public Song() {
-		title = "Jamitha";
+		artist = "Jamitha";
 		minutes = 7.5;
 	}
 
 
-	public Song(String title, double minutes) {
-		this.title = title;
+	public Song(String artist, double minutes) {
+		this.artist = artist;
 		this.minutes = minutes;
 	}
 
@@ -25,6 +25,6 @@ public class Song {
 
 	@Override
 	public String toString() {
-		return title + " " + minutes;
+		return artist + " " + minutes;
 	}
 }

@@ -8,5 +8,8 @@ public class HelloGitHub {
 
 		PlayList music = PlayList.randomSongs(10);
 		System.out.println("\nmusic playlist: " + music);
+
+		// TODO Fix Dashcode when outputting a playlist
+		System.out.println("Zari");
 	}
 }
